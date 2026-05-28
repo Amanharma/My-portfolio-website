@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
@@ -13,7 +14,7 @@ const navLinks = [
   { href: "#projects", label: "Projects" },
 ];
 
-const ContactModal = ({ onClose }) => (
+const ContactModal = ({ onClose }) => createPortal(
   <div
     className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm"
     onClick={onClose}
@@ -54,7 +55,8 @@ const ContactModal = ({ onClose }) => (
         </a>
       </div>
     </div>
-  </div>
+  </div>,
+  document.body
 );
 
 const Navbar = () => {
