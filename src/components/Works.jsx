@@ -41,7 +41,7 @@ const projects = [
     description:
       "Full-stack AI-powered web platform with intelligent complaint classification, routing, and automated response generation.",
     technologies: ["Next.js", "Node.js", "LLM Integration"],
-    demo: "https://ecosathi.vercel.app",
+    demo: "https://ecosathi-azure.vercel.app/",
     github: null,
     gradient: "from-green-500 to-teal-600",
     glow: "rgba(16,185,129,0.25)",
