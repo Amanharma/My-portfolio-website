@@ -2,7 +2,7 @@ import React from "react";
 import myImage from "../assets/Images/Image1.png";
 
 const RESUME_URL =
-  "https://drive.google.com/file/d/1RTbG4YblDqMOrF3iNKY_7J9UH-WdHvqI/view?usp=drivesdk";
+  "https://drive.google.com/file/d/16oMS-lLR6vMlvrImVD9ZdJcNS3zHIiOL/view?usp=drivesdk";
 
 const Hero = () => {
   return (
